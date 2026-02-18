@@ -14,22 +14,22 @@
 </p>
   </div>  
   
-  <form action="/login" method="POST">
+  <form action="login" method="POST">
     <div class="login-area">
     <div class="email-area">
-      <input type="email" name="user-email" value="" placeholder="Email Ou Telefone" />
+      <input type="email" name="user-email" value="" placeholder="Email Ou Telefone" required/>
     </div>
     <div class="passwd-area">
-      <input type="password" name="user-passwd" value="" placeholder="Senha" />
+      <input type="password" name="user-passwd" value="" placeholder="Senha" required/>
     </div>
     </div>
     <div class="submit-area">
       <button type="submit">Entrar</button>
       <br>
-      <a href="./erro-page.html">Esqueci a Senha.</a>
+      <a href="/templates/erro-page.html">Esqueci a Senha.</a>
     </div>
     <div class="new-account-area">
-      <button><a href="./erro-page.html">Criar Nova Conta</a></button>
+      <button><a href="/templates/erro-page.html">Criar Nova Conta</a></button>
     </div>
   
 
