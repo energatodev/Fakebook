@@ -5,7 +5,8 @@
 
 ⚠️  **AVISO!!**
 
-**ESSE PROJETO É APENAS PARA FINS DE EDUCAÇÃO**
+_"Este projeto é estritamente educacional. O uso desta ferramenta para realizar phishing contra indivíduos ou organizações sem consentimento explícito é ilegal e antiético. O objetivo é apenas treinamento de segurança."_
+
 ---
 
 >Feito Com:
